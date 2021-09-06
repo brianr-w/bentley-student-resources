@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Student Resources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#home, #about, #ideas, #clubs, #store{
+    position: absolute;
+    left: 15%;
+    width: 70%;
+}
+
+#about, #ideas, #clubs, #store{
+    visibility: hidden;
+}
+
+h1{
+    font-weight: 1;
+}
+
+h2{
+    margin-bottom: 0%;
+}
+
+p{
+    margin-top: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: #032340;
+}
+
+.rect{
+    position: relative;
+    border: 1px solid #032340;
+}
+
+.rectText{
+    padding-left: 5%;
+    color: #032340;
+}
+
+.rect2{
+    position: relative;
+    display: inline-block;
+    border: 1px solid #DFE8EF;
+    width: 20ex;
+}
+
+.end-panel{
+    clear:both;
+    height: 5px;
+    background-color:#fff;
+}
+</style>
+</head>
+
+<body>
+    <!--HOME PAGE-->
+    <div id = "home">
+        <h1>Student Resources</h1>
+        <div class = "end-panel"></div>
+
+        <div class = "rect">
+            <div class = "rectText" id = "aboutButton" onclick="navtoAbout()">
+                <h2>About Student Government</h2>
+                <p>What we do, responsibilities of each position, & how to contact us</p>
+            </div>
+        </div>
+        <div class = "end-panel"></div>
+        <div class = "rect">
+            <div class = "rectText" id = "ideasButton" onclick="navtoIdeas()">
+                <h2>Ideas and Suggestions</h2>
+                <p>Provide us with your ideas on how to improve student life.</p>
+            </div>
+        </div>
+        <div class = "end-panel"></div>
+        <div class = "rect">
+            <div class = "rectText" id = "clubsButton" onclick="navtoClubs()">
+                <h2>Clubs and Organizations</h2>
+                <p>Club calendars and descriptions coming soon!</p>
+            </div>
+        </div>
+        <div class = "end-panel"></div>
+        <div class = "rect">
+            <div class = "rectText" id = "storeButton" onclick="navtoStore()">
+                <h2>Student Store</h2>
+                <p>Student store menu, updated daily</p>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT PAGE-->
+    <div id = "about">
+        <h1>About Student Government</h1>
+
+        <p>Student government is made up of five officers and around three representatives in each grade to support Student Life at Bentley. This includes organizing events such as dances, spirit weeks, and movie nights; running student store; organizing the town meeting schedule; and implementing ideas of your own to benefit the community.<br /></p>
+        
+        <div class = "rect">
+            <div class = "rectText">
+                <h2><a href="https://www.canva.com/design/DAEpRT2HJyk/CqENK8IS4dQ07qjuU02UeQ/view?utm_content=DAEpRT2HJyk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">Meet Your Reps and Officers!</a><br /></h2>
+            </div>
+        </div>
+        <div class = "end-panel"></div>
+        <div class = "rect">
+            <div class = "rectText">
+                <h2><a href="https://docs.google.com/document/d/1lohCBs3GPTU20h9XzN4gGTlUAIbUvebIxC25vVQfL5c/edit?usp=sharing">Descriptions for Each Position</a><br /></h2>
+            </div>
+        </div>
+    </div>
+
+    <!--IDEAS PAGE-->
+    <div id = "ideas">
+        <h1>Ideas and Suggestions</h1>
+        <p>One of the most important part of student government’s work is listening to student ideas and suggestions and implementing them to improve student life. If you have any suggestions, fill out the Google Form linked below or contact a member of student government.<br /></p>  
+        <div class = "rect">
+            <div class = "rectText">
+                <h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScMufg73eDS3c3rohp0IMI3OwcDjYhL5WTGPNtPhROHGLLlMw/viewform?usp=sf_link">Online Suggestion Form</a></h2>
+            </div>
+        </div>
+        <div class = "end-panel"></div>
+        <div class = "rect">
+            <div class = "rectText">
+                <h2><a href="https://www.canva.com/design/DAEpRT2HJyk/CqENK8IS4dQ07qjuU02UeQ/view?utm_content=DAEpRT2HJyk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">Contact Info (Meet Your Reps and Officers Page)</a></h2>
+            </div>
+        </div>
+    </div>
+
+    <!--CLUBS PAGE-->
+    <div id = "clubs">
+        <h1>Clubs</h1>
+        <p>Club listings, descriptions, and meeting times to be posted soon.</p>
+    </div>
+
+    <!--STORE PAGE-->
+    <div id = "store">
+        <h1>Student Store</h1>
+        <p>The store is a student-gov run venue allowing you to get snacks and beverages inexpensively after school, and is the main source of revenue supporting clubs and student life events. It is located in front of the Commons.</p>
+        <div id = "end-panel"></div>
+        <div id = "snacks">
+            <h2>Snacks</h2>
+            <div class = "rect2"><div class = "rectText"><p><b>Assorted Chips</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Cup Noodles</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Tonkotsu Ramen</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Mac 'n Cheese</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Popcorn</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Mint Gum</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Nutella Breadsticks</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Kinder Bueno Bars</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Peanut Butter Cups</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Kit Kats</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Snickers</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>3 Musketeers</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Regular M&M's</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Peanut M&M's</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Skittles</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Starbursts</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Meiji Hello Panda</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Pop Tarts</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Welch's Fruit Snacks</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Fruit Roll-ups</b><br />$0.50</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Rice Krispies</b><br />$0.50</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Pocky</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Takis</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Pringles</b><br />SOLD OUT</p></div></div>
+        </div>
+        <div id = "end-panel"></div>
+        <div id = "beverages">
+            <h2>Beverages</h2>
+            <div class = "rect2"><div class = "rectText"><p><b>Diet Coke</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Coke</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Sprite</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>La Croix</b><br />$1.00</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Gatorade</b><br />SOLD OUT</p></div></div>
+            <div class = "rect2"><div class = "rectText"><p><b>Arizona Ice Tea</b><br />SOLD OUT</p></div></div>
+
+        </div>
+    </div>
+
+    <script>
+        function navtoAbout(){
+            console.log("Nav to About");
+            var home = document.getElementById("home");
+            var about = document.getElementById("about");
+            var ideas = document.getElementById("ideas");
+            var clubs = document.getElementById("clubs");
+            var store = document.getElementById("store");
+            home.style.visibility = "hidden";
+            about.style.visibility = "visible";
+            ideas.style.visibility = "hidden";
+            clubs.style.visibility = "hidden";
+            store.style.visibility = "hidden";
+        }
+
+        function navtoIdeas(){
+            console.log("Nav to Ideas");
+            var home = document.getElementById("home");
+            var about = document.getElementById("about");
+            var ideas = document.getElementById("ideas");
+            var clubs = document.getElementById("clubs");
+            var store = document.getElementById("store");
+            home.style.visibility = "hidden";
+            about.style.visibility = "hidden";
+            ideas.style.visibility = "visible";
+            clubs.style.visibility = "hidden";
+            store.style.visibility = "hidden";
+        }
+
+        function navtoClubs(){
+            console.log("Nav to Clubs");
+            var home = document.getElementById("home");
+            var about = document.getElementById("about");
+            var ideas = document.getElementById("ideas");
+            var clubs = document.getElementById("clubs");
+            var store = document.getElementById("store");
+            home.style.visibility = "hidden";
+            about.style.visibility = "hidden";
+            ideas.style.visibility = "hidden";
+            clubs.style.visibility = "visible";
+            store.style.visibility = "hidden";
+        }
+
+        function navtoStore(){
+            console.log("Nav to Store");
+            var home = document.getElementById("home");
+            var about = document.getElementById("about");
+            var ideas = document.getElementById("ideas");
+            var clubs = document.getElementById("clubs");
+            var store = document.getElementById("store");
+            home.style.visibility = "hidden";
+            about.style.visibility = "hidden";
+            ideas.style.visibility = "hidden";
+            clubs.style.visibility = "hidden";
+            store.style.visibility = "visible";
+        }
+    </script>
+</body>
+</html>
