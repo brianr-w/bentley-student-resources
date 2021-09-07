@@ -7,106 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
-<style>
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #F7F7FA;
-}
-
-#home, #about, #ideas, #clubs, #store{
-    position: absolute;
-    left: 15%;
-    width: 70%;
-}
-
-#about, #ideas, #clubs, #store{
-    visibility: hidden;
-}
-
-h1{
-    font-weight: 1;
-}
-
-p{
-    margin-top: 0%;
-}
-
-a{
-    text-decoration: none;
-    color: #032340;
-}
-
-.rect{
-    position: relative;
-    border: 1px solid #032340;
-}
-
-.rectText{
-    padding-left: 5%;
-    color: #032340;
-}
-
-.noBottomMargins{
-    margin-bottom: 0%;
-}
-
-.rect2{
-    position: relative;
-    display: inline-block;
-    border: 1px solid #032340;
-    width: 20ex;
-}
-
-.end-panel{
-    clear:both;
-    height: 5px;
-    background-color: #F7F7FA;
-}
-    
-.end-panel-large{
-    position: relative;
-    clear:both;
-    width: 100%;
-    height: 200px;
-    background-color: #F7F7FA;
-}
-    
-#menu{
-    position: fixed;
-    left: 0%;
-    top: 90%;
-    height: 10%;
-    width: 100%;
-    background-color: #DFE8EF;
-}
-
-.menuButton{
-    position: relative;
-    width: 24%;
-    height: 100%;
-}
-
-#aboutMenu, #ideasMenu, #clubsMenu, #storeMenu{
-    display: inline-block;
-}
-
-img{
-    position: absolute;
-    max-width: 40px;
-    max-height: 40px;
-    left: 40%;
-    top: 20%;
-    width: auto;
-    height: auto;
-}
-
-#clubsMenu img{
-    max-width: 35px;
-    max-height: 35px;
-    left: 40%;
-    top: 25%;
-}
-</style>
+<link rel="stylesheet" href="resources.css">
 </head>
 
 <body>
@@ -234,120 +135,20 @@ img{
     <!--MENU-->
     <div id = "menu">
         <div class = "menuButton" id = "aboutMenu" onclick = "navtoAbout()">
-            <img src = "about.png">
+            <img src = "about.png" alt = "About">
         </div>
         <div class = "menuButton" id = "ideasMenu" onclick = "navtoIdeas()">
-            <img src = "ideas.png">
+            <img src = "ideas.png" alt = "Ideas">
         </div>
         <div class = "menuButton" id = "clubsMenu" onclick = "navtoClubs()">
-            <img src = "clubs.png">        
+            <img src = "clubs.png" alt = "Clubs">        
         </div>
         <div class = "menuButton" id = "storeMenu" onclick = "navtoStore()">
-            <img src = "store.png">
+            <img src = "store.png" alt = "Store">
         </div>
     </div>
 
-
-    <script>
-        function navtoAbout(){
-            console.log("Nav to About");
-            var home = document.getElementById("home");
-            var about = document.getElementById("about");
-            var ideas = document.getElementById("ideas");
-            var clubs = document.getElementById("clubs");
-            var store = document.getElementById("store");
-            
-            var aboutMenu = document.getElementById("aboutMenu");
-            var ideasMenu = document.getElementById("ideasMenu");
-            var clubsMenu = document.getElementById("clubsMenu");
-            var storeMenu = document.getElementById("storeMenu");
-
-            home.style.visibility = "hidden";
-            about.style.visibility = "visible";
-            ideas.style.visibility = "hidden";
-            clubs.style.visibility = "hidden";
-            store.style.visibility = "hidden";
-            
-            aboutMenu.style.backgroundColor = "#AEB9C1";
-            ideasMenu.style.backgroundColor = "#DFE8EF";
-            clubsMenu.style.backgroundColor = "#DFE8EF";
-            storeMenu.style.backgroundColor = "#DFE8EF";
-        }
-
-        function navtoIdeas(){
-            console.log("Nav to Ideas");
-            var home = document.getElementById("home");
-            var about = document.getElementById("about");
-            var ideas = document.getElementById("ideas");
-            var clubs = document.getElementById("clubs");
-            var store = document.getElementById("store");
-            
-            var aboutMenu = document.getElementById("aboutMenu");
-            var ideasMenu = document.getElementById("ideasMenu");
-            var clubsMenu = document.getElementById("clubsMenu");
-            var storeMenu = document.getElementById("storeMenu");
-
-            home.style.visibility = "hidden";
-            about.style.visibility = "hidden";
-            ideas.style.visibility = "visible";
-            clubs.style.visibility = "hidden";
-            store.style.visibility = "hidden";
-            
-            aboutMenu.style.backgroundColor = "#DFE8EF";
-            ideasMenu.style.backgroundColor = "#AEB9C1";
-            clubsMenu.style.backgroundColor = "#DFE8EF";
-            storeMenu.style.backgroundColor = "#DFE8EF";
-        }
-
-        function navtoClubs(){
-            console.log("Nav to Clubs");
-            var home = document.getElementById("home");
-            var about = document.getElementById("about");
-            var ideas = document.getElementById("ideas");
-            var clubs = document.getElementById("clubs");
-            var store = document.getElementById("store");
-            
-            var aboutMenu = document.getElementById("aboutMenu");
-            var ideasMenu = document.getElementById("ideasMenu");
-            var clubsMenu = document.getElementById("clubsMenu");
-            var storeMenu = document.getElementById("storeMenu");
-
-            home.style.visibility = "hidden";
-            about.style.visibility = "hidden";
-            ideas.style.visibility = "hidden";
-            clubs.style.visibility = "visible";
-            store.style.visibility = "hidden";
-            
-            aboutMenu.style.backgroundColor = "#DFE8EF";
-            ideasMenu.style.backgroundColor = "#DFE8EF";
-            clubsMenu.style.backgroundColor = "#AEB9C1";
-            storeMenu.style.backgroundColor = "#DFE8EF";
-        }
-
-        function navtoStore(){
-            console.log("Nav to Store");
-            var home = document.getElementById("home");
-            var about = document.getElementById("about");
-            var ideas = document.getElementById("ideas");
-            var clubs = document.getElementById("clubs");
-            var store = document.getElementById("store");
-            
-            var aboutMenu = document.getElementById("aboutMenu");
-            var ideasMenu = document.getElementById("ideasMenu");
-            var clubsMenu = document.getElementById("clubsMenu");
-            var storeMenu = document.getElementById("storeMenu");
-
-            home.style.visibility = "hidden";
-            about.style.visibility = "hidden";
-            ideas.style.visibility = "hidden";
-            clubs.style.visibility = "hidden";
-            store.style.visibility = "visible";
-            
-            aboutMenu.style.backgroundColor = "#DFE8EF";
-            ideasMenu.style.backgroundColor = "#DFE8EF";
-            clubsMenu.style.backgroundColor = "#DFE8EF";
-            storeMenu.style.backgroundColor = "#AEB9C1";
-        }
-    </script>
+    <script src="resources.js"></script>
+    
 </body>
 </html>
