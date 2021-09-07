@@ -18,9 +18,9 @@ function navtoAbout(){
     store.style.visibility = "hidden";
 
     aboutMenu.style.backgroundColor = "#DFE8EF";
-    ideasMenu.style.backgroundColor = "#F7F7FA";
-    clubsMenu.style.backgroundColor = "#F7F7FA";
-    storeMenu.style.backgroundColor = "#F7F7FA";
+    ideasMenu.style.backgroundColor = "#E5E5E5";
+    clubsMenu.style.backgroundColor = "#E5E5E5";
+    storeMenu.style.backgroundColor = "#E5E5E5";
 }
 
 function navtoIdeas(){
@@ -42,10 +42,10 @@ function navtoIdeas(){
     clubs.style.visibility = "hidden";
     store.style.visibility = "hidden";
 
-    aboutMenu.style.backgroundColor = "#F7F7FA";
+    aboutMenu.style.backgroundColor = "#E5E5E5";
     ideasMenu.style.backgroundColor = "#DFE8EF";
-    clubsMenu.style.backgroundColor = "#F7F7FA";
-    storeMenu.style.backgroundColor = "#F7F7FA";
+    clubsMenu.style.backgroundColor = "#E5E5E5";
+    storeMenu.style.backgroundColor = "#E5E5E5";
 }
 
 function navtoClubs(){
@@ -67,10 +67,10 @@ function navtoClubs(){
     clubs.style.visibility = "visible";
     store.style.visibility = "hidden";
 
-    aboutMenu.style.backgroundColor = "#F7F7FA";
-    ideasMenu.style.backgroundColor = "#F7F7FA";
+    aboutMenu.style.backgroundColor = "#E5E5E5";
+    ideasMenu.style.backgroundColor = "#E5E5E5";
     clubsMenu.style.backgroundColor = "#DFE8EF";
-    storeMenu.style.backgroundColor = "#F7F7FA";
+    storeMenu.style.backgroundColor = "#E5E5E5";
 }
 
 function navtoStore(){
@@ -92,8 +92,8 @@ function navtoStore(){
     clubs.style.visibility = "hidden";
     store.style.visibility = "visible";
 
-    aboutMenu.style.backgroundColor = "#F7F7FA";
-    ideasMenu.style.backgroundColor = "#F7F7FA";
-    clubsMenu.style.backgroundColor = "#F7F7FA";
+    aboutMenu.style.backgroundColor = "#E5E5E5";
+    ideasMenu.style.backgroundColor = "#E5E5E5";
+    clubsMenu.style.backgroundColor = "#E5E5E5";
     storeMenu.style.backgroundColor = "#DFE8EF";
 }
