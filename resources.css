@@ -34,6 +34,11 @@ a{
 .rectText{
     padding-left: 5%;
     color: #032340;
+    border: 1px solid #DFE8EF;
+}
+
+.rect:hover, .rectText:hover{
+    background-color: #DFE8EF;
 }
 
 .noBottomMargins{
@@ -43,7 +48,7 @@ a{
 .rect2{
     position: relative;
     display: inline-block;
-    border: 1px solid #DFE8EF;
+    margin-bottom: 10px;
     width: 20ex;
 }
 
