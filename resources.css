@@ -50,7 +50,7 @@ a{
 .end-panel{
     clear:both;
     height: 5px;
-    background-color: #E5E5E5;
+    background-color: #F7F7FA;
 }
 
 .end-panel-large{
@@ -67,7 +67,7 @@ a{
     top: 90%;
     height: 10%;
     width: 100%;
-    background-color: #F7F7FA;
+    background-color: #E5E5E5;
 }
 
 .menuButton{
