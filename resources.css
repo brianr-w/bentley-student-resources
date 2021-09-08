@@ -45,6 +45,11 @@ a{
     margin-bottom: 0%;
 }
 
+.blueRect{
+    background-color: #DFE8EF;
+    padding: 30px;
+}
+
 .rect2{
     position: relative;
     display: inline-block;
@@ -100,4 +105,8 @@ img{
     max-height: 35px;
     left: 40%;
     top: 25%;
+}
+
+.miniText{
+    font-size: 15px;
 }
