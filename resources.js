@@ -97,3 +97,15 @@ function navtoStore(){
     clubsMenu.style.backgroundColor = "#E5E5E5";
     storeMenu.style.backgroundColor = "#DFE8EF";
 }
+
+function navtoMeet(){
+    window.open("https://www.canva.com/design/DAEpRT2HJyk/CqENK8IS4dQ07qjuU02UeQ/view?utm_content=DAEpRT2HJyk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton", '_blank');
+}
+
+function navtoExpectations(){
+    window.open("https://docs.google.com/document/d/1lohCBs3GPTU20h9XzN4gGTlUAIbUvebIxC25vVQfL5c/edit?usp=sharing", '_blank');
+}
+
+function navtoSuggestions(){
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLScMufg73eDS3c3rohp0IMI3OwcDjYhL5WTGPNtPhROHGLLlMw/viewform?usp=sf_link", '_blank');
+}
