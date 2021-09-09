@@ -86,7 +86,7 @@ a{
     margin-right: 0%;
 }
 
-#aboutMenu, #ideasMenu, #clubsMenu, #storeMenu{
+#homeMenu, #aboutMenu, #ideasMenu, #clubsMenu, #storeMenu{
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
