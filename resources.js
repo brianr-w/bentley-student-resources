@@ -1,15 +1,38 @@
-function navtoAbout(){
-    console.log("Nav to About");
+function navtoHome(){
+    // UPDATING ELEMENT DISPLAYED
     var home = document.getElementById("home");
     var about = document.getElementById("about");
     var ideas = document.getElementById("ideas");
     var clubs = document.getElementById("clubs");
     var store = document.getElementById("store");
 
-    var aboutMenu = document.getElementById("aboutMenu");
-    var ideasMenu = document.getElementById("ideasMenu");
-    var clubsMenu = document.getElementById("clubsMenu");
-    var storeMenu = document.getElementById("storeMenu");
+    home.style.visibility = "visible";
+    about.style.visibility = "hidden";
+    ideas.style.visibility = "hidden";
+    clubs.style.visibility = "hidden";
+    store.style.visibility = "hidden";
+
+    // UPDATING MENU ITEM HIGHLIGHTED
+    var homeImg = document.getElementById("homeMenuImg");
+    var aboutImg = document.getElementById("aboutMenuImg");
+    var ideasImg = document.getElementById("ideasMenuImg");
+    var clubsImg = document.getElementById("clubsMenuImg");
+    var storeImg = document.getElementById("storeMenuImg");
+
+    homeImg.src = "home-blue.png";
+    aboutImg.src = "about.png";
+    ideasImg.src = "ideas.png";
+    clubsImg.src = "clubs.png";
+    storeImg.src = "store.png";
+}
+
+function navtoAbout(){
+    // UPDATING ELEMENT DISPLAYED
+    var home = document.getElementById("home");
+    var about = document.getElementById("about");
+    var ideas = document.getElementById("ideas");
+    var clubs = document.getElementById("clubs");
+    var store = document.getElementById("store");
 
     home.style.visibility = "hidden";
     about.style.visibility = "visible";
@@ -17,24 +40,27 @@ function navtoAbout(){
     clubs.style.visibility = "hidden";
     store.style.visibility = "hidden";
 
-    aboutMenu.style.backgroundColor = "#DFE8EF";
-    ideasMenu.style.backgroundColor = "#E5E5E5";
-    clubsMenu.style.backgroundColor = "#E5E5E5";
-    storeMenu.style.backgroundColor = "#E5E5E5";
+    // UPDATING MENU ITEM HIGHLIGHTED
+    var homeImg = document.getElementById("homeMenuImg");
+    var aboutImg = document.getElementById("aboutMenuImg");
+    var ideasImg = document.getElementById("ideasMenuImg");
+    var clubsImg = document.getElementById("clubsMenuImg");
+    var storeImg = document.getElementById("storeMenuImg");
+
+    homeImg.src = "home.png";
+    aboutImg.src = "about-blue.png";
+    ideasImg.src = "ideas.png";
+    clubsImg.src = "clubs.png";
+    storeImg.src = "store.png";
 }
 
 function navtoIdeas(){
-    console.log("Nav to Ideas");
+    // UPDATING ELEMENT DISPLAYED
     var home = document.getElementById("home");
     var about = document.getElementById("about");
     var ideas = document.getElementById("ideas");
     var clubs = document.getElementById("clubs");
     var store = document.getElementById("store");
-
-    var aboutMenu = document.getElementById("aboutMenu");
-    var ideasMenu = document.getElementById("ideasMenu");
-    var clubsMenu = document.getElementById("clubsMenu");
-    var storeMenu = document.getElementById("storeMenu");
 
     home.style.visibility = "hidden";
     about.style.visibility = "hidden";
@@ -42,49 +68,55 @@ function navtoIdeas(){
     clubs.style.visibility = "hidden";
     store.style.visibility = "hidden";
 
-    aboutMenu.style.backgroundColor = "#E5E5E5";
-    ideasMenu.style.backgroundColor = "#DFE8EF";
-    clubsMenu.style.backgroundColor = "#E5E5E5";
-    storeMenu.style.backgroundColor = "#E5E5E5";
+   // UPDATING MENU ITEM HIGHLIGHTED
+    var homeImg = document.getElementById("homeMenuImg");
+    var aboutImg = document.getElementById("aboutMenuImg");
+    var ideasImg = document.getElementById("ideasMenuImg");
+    var clubsImg = document.getElementById("clubsMenuImg");
+    var storeImg = document.getElementById("storeMenuImg");
+
+    homeImg.src = "home.png";
+    aboutImg.src = "about.png";
+    ideasImg.src = "ideas-blue.png";
+    clubsImg.src = "clubs.png";
+    storeImg.src = "store.png";
 }
 
 function navtoClubs(){
-    console.log("Nav to Clubs");
+    // UPDATING ELEMENT DISPLAYED
     var home = document.getElementById("home");
     var about = document.getElementById("about");
     var ideas = document.getElementById("ideas");
     var clubs = document.getElementById("clubs");
     var store = document.getElementById("store");
-
-    var aboutMenu = document.getElementById("aboutMenu");
-    var ideasMenu = document.getElementById("ideasMenu");
-    var clubsMenu = document.getElementById("clubsMenu");
-    var storeMenu = document.getElementById("storeMenu");
 
     home.style.visibility = "hidden";
     about.style.visibility = "hidden";
     ideas.style.visibility = "hidden";
     clubs.style.visibility = "visible";
     store.style.visibility = "hidden";
+    
+    // UPDATING MENU ITEM HIGHLIGHTED
+    var homeImg = document.getElementById("homeMenuImg");
+    var aboutImg = document.getElementById("aboutMenuImg");
+    var ideasImg = document.getElementById("ideasMenuImg");
+    var clubsImg = document.getElementById("clubsMenuImg");
+    var storeImg = document.getElementById("storeMenuImg");
 
-    aboutMenu.style.backgroundColor = "#E5E5E5";
-    ideasMenu.style.backgroundColor = "#E5E5E5";
-    clubsMenu.style.backgroundColor = "#DFE8EF";
-    storeMenu.style.backgroundColor = "#E5E5E5";
+    homeImg.src = "home.png";
+    aboutImg.src = "about.png";
+    ideasImg.src = "ideas.png";
+    clubsImg.src = "clubs-blue.png";
+    storeImg.src = "store.png";
 }
 
 function navtoStore(){
-    console.log("Nav to Store");
+    // UPDATING ELEMENT DISPLAYED
     var home = document.getElementById("home");
     var about = document.getElementById("about");
     var ideas = document.getElementById("ideas");
     var clubs = document.getElementById("clubs");
     var store = document.getElementById("store");
-
-    var aboutMenu = document.getElementById("aboutMenu");
-    var ideasMenu = document.getElementById("ideasMenu");
-    var clubsMenu = document.getElementById("clubsMenu");
-    var storeMenu = document.getElementById("storeMenu");
 
     home.style.visibility = "hidden";
     about.style.visibility = "hidden";
@@ -92,12 +124,21 @@ function navtoStore(){
     clubs.style.visibility = "hidden";
     store.style.visibility = "visible";
 
-    aboutMenu.style.backgroundColor = "#E5E5E5";
-    ideasMenu.style.backgroundColor = "#E5E5E5";
-    clubsMenu.style.backgroundColor = "#E5E5E5";
-    storeMenu.style.backgroundColor = "#DFE8EF";
+    // UPDATING MENU ITEM HIGHLIGHTED
+    var homeImg = document.getElementById("homeMenuImg");
+    var aboutImg = document.getElementById("aboutMenuImg");
+    var ideasImg = document.getElementById("ideasMenuImg");
+    var clubsImg = document.getElementById("clubsMenuImg");
+    var storeImg = document.getElementById("storeMenuImg");
+
+    homeImg.src = "home.png";
+    aboutImg.src = "about.png";
+    ideasImg.src = "ideas.png";
+    clubsImg.src = "clubs.png";
+    storeImg.src = "store-blue.png";
 }
 
+// EXTERNAL LINKS
 function navtoMeet(){
     window.open("https://www.canva.com/design/DAEpRT2HJyk/CqENK8IS4dQ07qjuU02UeQ/view?utm_content=DAEpRT2HJyk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton", '_blank');
 }
