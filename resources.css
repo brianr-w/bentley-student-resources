@@ -79,8 +79,8 @@ a{
 
 #menuButtons{
     position: relative;
-    width: 40%;
-    left: 30%;
+    width: 60%;
+    left: 25%;
     padding-top: 1%;
     padding-right: 0%;
     margin-right: 0%;
@@ -96,7 +96,7 @@ a{
 img{
     position: relative;
     max-width: 100%;
-    max-height: 30px;
+    max-height: 35px;
     width: auto;
     height: auto;
 }
